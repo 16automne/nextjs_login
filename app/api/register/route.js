@@ -1,6 +1,8 @@
 import {db} from '@/lib/db';
 import bcrypt from 'bcrypt';
 
+export const runtime = 'nodejs';
+
 //api폴더 안의 문서는 함수로 작성
 export async function POST(req) {
   //1. 변수선언
@@ -44,4 +46,5 @@ export async function POST(req) {
       headers:{'Content-Type': 'application/json'},
     }
   );
+
 }
