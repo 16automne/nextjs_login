@@ -1,4 +1,5 @@
 'use client'; //Next.js 13버전부터 App Router에서 도입된 'client 
+
 import Link from 'next/link';
 import {useState, useEffect} from 'react';
 
